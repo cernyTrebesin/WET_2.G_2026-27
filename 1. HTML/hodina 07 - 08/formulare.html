@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláře</title>
+</head>
+<body>
+    <form action="">
+        <label for="jmeno">Jméno:</label> <!-- Textové pole -->
+        <input type="text" id="jmeno">
+        <br>
+        <label for="vek">Věk:</label> <!-- Pole s čísly -->
+        <input type="number" id="vek" min="10" max="50">
+        <br>
+        <label for="datum">Datum narození:</label> <!-- Pole s datumem -->
+        <input type="date" id="datum">
+        <br>
+        <label for="muz">Muž</label>
+        <input type="radio" id="muz" name="pohlavi"> <!-- Radio button - může být nakliknuto pouze jedno tlačítko-->
+        <label for="zena">Žena</label>
+        <input type="radio" id="zena" name="pohlavi"> <!-- name přidá tlačítka do jedné skupiny-->
+        <br>
+        Koníčky: <br>
+        <label for="vareni">Vaření</label>
+        <input type="checkbox" name="konicky" id="vareni"> <!-- Checkbox - zaškrtávací tlačítko -->
+        <label for="sport">Sport</label>
+        <input type="checkbox" name="konicky" id="sport">
+        <label for="spanek">Spánek</label>
+        <input type="checkbox" name="konicky" id="spanek">
+        <br>
+        <input type="reset"> <!-- Resetovací tlačítko -->
+        <input type="submit"> <!-- Odesílací tlačítko -->
+        <input type="button" value="Ahoj"> <!-- Tlačítko -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+/*Externí zápis*/
+
+p{ /*Typový selektor*/
+    color: #ffa500; /*Barva písma*/
+    font-size: 20px; /*Velikost písma*/
+    font-family: 'Courier New', Courier, monospace; /*Font písma*/
+
+
+}
+
+#Spytihněv{ /*Identifikátor*/
+    background-color: purple; /*Barva pozadí*/
+    color: green;
+}
+
+.Jarmil{ /*Třída*/
+    background-color: black;
+    color: white;
+}
